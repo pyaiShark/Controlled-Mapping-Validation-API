@@ -57,9 +57,9 @@ This project implements the backend API for a complex mapping system required by
     python manage.py runserver
     ```
 8. **For Admin Dashboard (Optional):**
-   '''bash
+   ```bash
    python manage.py createsuperuser
-   '''
+   ```
 
 ## API Documentation
 Interactive API documentation is automatically generated using `drf-yasg` and explicit `@swagger_auto_schema` decorators. Once the local server is running, you can explore and test the endpoints at:
