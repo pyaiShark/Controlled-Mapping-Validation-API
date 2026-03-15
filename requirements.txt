@@ -1,0 +1,5 @@
+Django==5.2.12
+djangorestframework
+django-cors-headers
+python-decouple
+drf-yasg
