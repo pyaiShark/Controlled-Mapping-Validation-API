@@ -49,12 +49,17 @@ This project implements the backend API for a complex mapping system required by
 6.  **Populate Database (Optional):**
     *To quickly test the APIs and Swagger documentation, run the seed script to auto-generate dummy Vendors, Products, Courses, Certifications and their mappings:*
     ```bash
+    cd backend/
     python seed_db.py
     ```
 7.  **Start the Local Server:**
     ```bash
     python manage.py runserver
     ```
+8. **For Admin Dashboard (Optional):**
+   '''bash
+   python manage.py createsuperuser
+   '''
 
 ## API Documentation
 Interactive API documentation is automatically generated using `drf-yasg` and explicit `@swagger_auto_schema` decorators. Once the local server is running, you can explore and test the endpoints at:
